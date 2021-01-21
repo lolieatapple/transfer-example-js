@@ -9,6 +9,7 @@ const toAddress = '0x1425338fb3fd3263c19d29fadecd784c558a15bc';
 
 const value = '0x' + (1e18).toString(16);
 
+// Wanchain **Testnet** public RPC server
 const rpcUrl = 'https://gwan-ssl.wandevs.org:46891';
 
 const wanProvider = new WanProvider(privateKey, rpcUrl);
